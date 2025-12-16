@@ -2,7 +2,8 @@
   "name": "Gore Mountain",
   "url": {
     "host": "https://goremountain.com",
-    "pathname": "/the-mountain/conditions/"
+    "pathname": "/the-mountain/conditions/",
+    "ignoreErrors": true
   },
   "tags": [
     "New York"
