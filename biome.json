@@ -3,7 +3,8 @@
   "assist": {
     "actions": {
       "source": {
-        "organizeImports": "on"
+        "organizeImports": "on",
+        "useSortedPackageJson": "on"
       }
     }
   },
@@ -13,21 +14,23 @@
     "useIgnoreFile": true
   },
   "formatter": {
-    "enabled": true
+    "enabled": true,
+    "useEditorconfig": true
   },
   "files": {
     "includes": [
       "**",
-      "!**/pnpm-lock.yaml",
-      "!**/bin/generate",
-      "!**/test/resorts/example",
-      "!**/test/replay"
+      "!pnpm-lock.yaml",
+      "!bin/generate",
+      "!test/resorts/example",
+      "!test/replay",
+      "!meta/liftie.json",
+      "!templates"
     ]
   },
   "javascript": {
     "formatter": {
       "arrowParentheses": "asNeeded",
-      "indentStyle": "space",
       "quoteStyle": "single",
       "trailingCommas": "none",
       "lineWidth": 120
@@ -36,27 +39,37 @@
   "json": {
     "formatter": {
       "enabled": true,
-      "expand": "always",
-      "indentStyle": "space"
+      "expand": "always"
     }
   },
   "linter": {
     "enabled": true,
+    "domains": {
+      "project": "recommended"
+    },
     "rules": {
-      "recommended": true,
+      "preset": "recommended",
+      "a11y": {
+        "useGenericFontNames": "off",
+        "noSvgWithoutTitle": "off"
+      },
       "correctness": {
         "noUnusedVariables": "error",
+        "noUndeclaredDependencies": "error",
         "noUndeclaredVariables": "error",
-        "noUnusedFunctionParameters": "error"
+        "noUnusedFunctionParameters": "error",
+        "useImportExtensions": "error"
       },
       "complexity": {
         "noForEach": "off",
-        "useLiteralKeys": "off"
+        "useLiteralKeys": "off",
+        "noImportantStyles": "off"
       },
       "style": {
         "noParameterAssign": "off",
         "useDefaultParameterLast": "error",
         "useSingleVarDeclarator": "error",
+        "noDescendingSpecificity": "off",
         "noUnusedTemplateLiteral": "error",
         "useNumberNamespace": "error",
         "noUselessElse": "error"

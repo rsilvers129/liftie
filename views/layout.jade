@@ -35,6 +35,7 @@ html(
   data-service-worker=serviceWorker
 )
   head
+    meta(charset='utf-8')
     title= title
     +description('description')
     meta(name='mobile-web-app-capable', content='yes')
@@ -58,7 +59,8 @@ html(
     +liftie-stylesheet('/stylesheets/style')
     link(rel='publisher', href='https://plus.google.com/107555641794612264233')
   body()
-    block content
+    main
+      block content
     block footer
       footer
         a.icon-alone(href='/about', title='About Liftie.')

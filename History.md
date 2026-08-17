@@ -1,4 +1,145 @@
 
+4.4.0 / 2026-07-14
+==================
+
+ * add west-mountain
+ * add snow-ridge
+ * add granite-peak
+ * add swain
+ * add greek-peak
+ * add mission-ridge
+ * add pitztaler-gletscher
+ * add hochzeiger
+ * add calabogie
+ * add donner-ski-ranch
+
+4.3.6 / 2026-07-12
+==================
+
+ * resort: fix manning-park
+ * resort: fix burke-mountain
+ * resort: fix skiwelt
+
+4.3.5 / 2026-06-14
+==================
+
+ * update NOAA stations
+ * upgrade `commander` to ~15
+ * update HTML / CSS parsers
+ * upgrade `undici` to ~8
+ * upgrade `biome` to 2.5.0
+ * upgrade esbuild
+
+4.3.4 / 2026-05-23
+==================
+
+ * soft dependency update
+
+4.3.3 / 2026-04-12
+==================
+
+ * soft dependencies update
+ * add explicit permission for check workflow
+ * fix incomplete regular expression for hostnames
+
+4.3.2 / 2026-03-17
+==================
+
+ * use masonry/grid-lanes layout for main page
+ * soft dependency update
+
+4.3.1 / 2026-02-19
+==================
+
+ * prefer `system-ui` font family when supported
+ * add explicit UTF encoding declaration for JSON content
+ * add explicit UTF-8 encoding declaration to HTML
+ * remove `Eldora` tag
+
+4.3.0 / 2026-02-19
+==================
+
+ * remove background gradients
+ * replace stylus files with a single CSS style
+ * remove unused stylus files
+ * remove stylus dependency
+ * adjust biome config to lint and format all files
+ * adjust .gitignore for CSS
+ * use flex and grid CSS layouts
+ * fix compiling stylus
+
+4.2.8 / 2026-02-17
+==================
+
+ * fix Skiwelt resort
+ * fix Sunshine Village resort
+ * fix Grand Targhee resort
+ * fix SunValley resort
+ * fix Sugarbowl resort
+
+4.2.7 / 2026-02-16
+==================
+
+ * fix Sierra at Tahoe resort
+ * add LIFITE_USER_AGENT environment variable
+
+4.2.6 / 2026-02-16
+==================
+
+ * soft dependency update
+ * upgrade `esbuild` to 0.27.3
+ * upgrade `biome` to 2.4.0
+
+4.2.5 / 2026-02-12
+==================
+
+ * fix Angel Fire resort
+ * use `Array.at(-1)` to retrieve last item
+ * use nullish coalescing assignment `??=` where possible
+
+4.2.4 / 2026-02-11
+==================
+
+ * fix lumiplan resorts
+
+4.2.3 / 2026-02-04
+==================
+
+ * upgrade `biome` to 2.3.14
+ * soft dependency update
+
+4.2.2 / 2026-01-24
+==================
+
+ * fix environment vars initialization
+ * enable `biome` project domain rules
+ * use `import.meta.dirname` consistently
+ * fix `Permissions-Policy` header
+
+4.2.1 / 2026-01-21
+==================
+
+ * upgrade `biomes` to 2.3.11
+ * soft dependency update
+ * use `node:querystring` instead of `qs` module
+
+4.2.0 / 2025-12-31
+==================
+
+ * upgrade `biome` to 2.3.10
+ * upgrade `@pirxpilot/cookie-parser` to ~3
+ * soft dependency update
+
+4.1.1 / 2025-12-31
+==================
+
+ * update Bretonwoods resort for the new season
+
+4.1.0 / 2025-12-16
+==================
+
+ * add Eldora resort
+
 4.0.4 / 2025-12-09
 ==================
 
