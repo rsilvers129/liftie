@@ -3,7 +3,8 @@
   "url": {
     "host": "https://goremountain.com",
     "pathname": "/the-mountain/conditions/",
-    "ignoreErrors": true
+    "browser": true,
+    "waitFor": ".lifts-row"
   },
   "tags": [
     "New York"

@@ -1,9 +1,10 @@
 {
   "name": "Whiteface",
   "url": {
-    "host": "https://www.whiteface.com",
-    "pathname": "/mountain/conditions",
-    "ignoreErrors": true
+    "host": "https://whiteface.com",
+    "pathname": "/the-mountain/conditions/",
+    "browser": true,
+    "waitFor": ".lifts-row"
   },
   "tags": [
     "New York"

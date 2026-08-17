@@ -8,3 +8,6 @@ public/scripts/
 .settings
 .DS_Store
 package-lock.json
+
+# puppeteer browser download (see .puppeteerrc.cjs)
+.cache/
