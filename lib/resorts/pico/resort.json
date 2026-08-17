@@ -1,18 +1,14 @@
 {
   "name": "Pico Mountain",
   "url": {
-    "host": "https://www.picomountain.com",
-    "pathname": "/the-mountain/conditions-weather/lifts-trails-report"
-  },
-  "api": {
-    "host": "https://api.picomountain.com",
-    "pathname": "/api/v1/dor/drupal/lifts",
-    "allowHostnameMismatch": true
+    "host": "https://picomountain.com",
+    "pathname": "/lifts-and-trails-status",
+    "browser": true,
+    "waitFor": ".lift-card[data-lift-status]"
   },
   "tags": [
     "Vermont",
-    "New England",
-    "Powdr"
+    "New England"
   ],
   "opening": "2017-12-09",
   "ll": [

@@ -1,11 +1,10 @@
 import lifts from '../lifts/index.js';
 
-lifts('pico', 'json', {
-  'Bonanza Double': 'closed',
-  'Bonanza Rope Tow': 'closed',
+lifts('pico', 'html', {
+  'Bonanza Carpet': 'closed',
   'Golden Express Quad': 'closed',
   'Knomes Knoll Triple': 'closed',
   'Little Pico Triple': 'closed',
-  'Outpost Double': 'closed',
+  'Outpost Rope Tow': 'closed',
   'Summit Express Quad': 'closed'
 });
