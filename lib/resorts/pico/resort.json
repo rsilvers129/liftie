@@ -6,7 +6,8 @@
   },
   "api": {
     "host": "https://api.picomountain.com",
-    "pathname": "/api/v1/dor/drupal/lifts"
+    "pathname": "/api/v1/dor/drupal/lifts",
+    "allowHostnameMismatch": true
   },
   "tags": [
     "Vermont",
